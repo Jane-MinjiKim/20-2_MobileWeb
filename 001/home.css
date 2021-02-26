@@ -1,0 +1,133 @@
+/* navigation bar */
+.navbar-brand{
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+.nav-link{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-item{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navbar-expand-lg{
+    background-color: #000000;
+}
+
+/* Banner */
+#banner{
+    padding: 3em 0 4em 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(banner_mini.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+#banner .inner{
+    position: relative;
+    z-index: 10005;
+    padding-top: 1em;
+} 
+#banner h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3.0em;
+    color: #fed136;
+    line-height: 1em;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+#banner p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+} 
+
+p{
+    line-height: 180%;
+}
+.container{
+    margin: 0px auto;
+    width: 1000px;
+}
+/* 본문 */
+#homecontent{
+    overflow: hidden;
+    padding: 0em 0em 8em 0em;
+    background: #fff;
+}
+
+/* social icon 정리 */
+ul.contact{
+    margin: 0;
+    padding: 1em 0em 0em 0em;
+    list-style: none;
+}
+ul.contact li{
+    display: inline-block;
+    padding: 0em 0.30em;
+    font-size: 1.5em;
+} 
+ul.contact li span{
+    display: none;
+    margin: 0;
+    padding: 0;
+} 
+ul.contact li a{
+    color: #000000;
+} 
+ul.contact li a:before{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 30px;
+} 
+.title {
+    text-align: center;
+    color: #fed136;
+}
+#bottom{
+    overflow: hidden;
+    padding: 0px 0px 1px 0px;
+}
+
+#footer{
+    text-align: center;
+}
+
+/*
+#footer .title span{
+    color: #646464;
+} 
+
+/* copyright */
+#copyright{
+    overflow: hidden;
+    padding: 1em 0em;
+    border-top: 1px solid #e7e7e7;
+}
+#copyright p{
+    letter-spacing: 0.20em;
+    text-align: center;
+    font-size: 0.80em;
+    color: #646464;
+}
+#copyright a{
+    display: none;
+} 
+
+@media (max-width: 600px){
+    #banner p{
+        margin: 0 20px 0 20px;
+    }
+    #copyright a{
+        display: inline;
+    }   
+}
